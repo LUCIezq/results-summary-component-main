@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Proyectos",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"liveServer.settings.multiRootWorkspaceName": "results-summary-component-main"
+	}
+}
