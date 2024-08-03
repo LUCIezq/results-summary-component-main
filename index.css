@@ -22,8 +22,7 @@
 body {
     background-color: #ffffff;
 
-
-    height: 100dvh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,16 +202,12 @@ body {
 
 @media (width < 464px) {
     .container {
-        display: flex;
-        flex-direction: column;
-        margin: .5rem;
+        grid-template-columns: 1fr;
+        margin: 0 2rem;
     }
 
-    .result{
-        padding: 1.5rem 0;
-
+    .result {
+        padding: .5rem;
     }
-
 
 }
-
