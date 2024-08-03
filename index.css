@@ -37,7 +37,6 @@ body {
     box-shadow: 10px 10px 30px #00000021;
     border-radius: 20px;
 
-    position: relative;
 
 }
 
@@ -206,10 +205,14 @@ body {
     .container {
         display: flex;
         flex-direction: column;
+        margin: .5rem;
     }
 
-    .result {
-        gap: 1rem;
+    .result{
+        padding: 1.5rem 0;
+
     }
+
+
 }
 
